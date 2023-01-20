@@ -1,7 +1,7 @@
 #content{
     max-width: 1600px; 
     margin: 0 auto;
-   
+    
    }
 
    .box{
@@ -47,6 +47,7 @@ nav{
     display:block;
     max-width: 70%;
     margin:0 auto;
+    font-family: 'Josefin Sans', sans-serif;
 }
 nav a{
     color:rgba(133, 170, 238, 0.901)
@@ -100,6 +101,7 @@ h2{
     color: aliceblue;
     font-size: 3em;
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 #date{
