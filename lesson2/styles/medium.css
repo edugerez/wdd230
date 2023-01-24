@@ -1,0 +1,37 @@
+@media only screen and (min-width: 32.5em){
+
+    #content{
+        display: grid;
+        grid-template-areas: "header header"
+                              "box1 box2"
+                              "box3  box3"
+                              "footer footer";
+
+        }
+    
+    h1{
+        font-size: 5em;
+        text-shadow: 2px 4px 6px;
+    }
+    h4{
+        font-size: 3em;
+    }
+    header{
+        border:solid rgba(244, 165, 96, 0.979) 2px ;
+    }
+
+    h2{
+        font-size: 4em;
+        
+    }
+    h5{
+        font-size: 3em;
+    }
+    a{
+        font-size: 2em;
+    }
+    p{
+        font-size: 2.5em;
+    }
+    
+}
