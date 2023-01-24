@@ -1,5 +1,5 @@
 #content{
-    background-color: rgb(226, 216, 230);
+   background-color: rgb(226, 216, 230);
    text-align: center;
    display: grid;
    grid-template-areas:"header"
@@ -12,11 +12,13 @@
 
 header{
     grid-area: header;
-    background-color: rgb(86, 52, 105);
-    color: rgb(236, 224, 241);
+    background-color: rgb(57, 29, 74);
+    color: rgb(253, 249, 254);
     padding: 0.3em;
 }
-
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
 
 
 .box1{
@@ -47,16 +49,19 @@ h2{
     margin:0 auto;
     text-align: left;
     padding: 1em 1em;
+    font-family: 'Josefin Sans', sans-serif;
 }
 h4{
     color: white;
     font-size: larger;
+    font-family: 'Source Code Pro', monospace;
 }
 h5 {
     margin: 0 auto;
     text-align: left;
     padding: 1em;
     font-size: larger;
+    font-family: 'Source Code Pro', monospace;
 }
 a{  display: flex;
     justify-content: flex-start;
@@ -69,12 +74,12 @@ a{  display: flex;
 img{
     width: 95%;
     margin: 0 auto;
-  
     }
 
 p{
     padding: 1em;
     text-align: start;
+    font-family: 'Josefin Sans', sans-serif;
 }
 footer{
    
