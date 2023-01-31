@@ -8,17 +8,14 @@
 }
 
 
-body {
-	
 
-}
 img{
 	width:100%;
 }
 
 header,
 footer {
-	font-family: 'Work Sans', sans-serif;
+	
 	background-color: #054a6a;
 	justify-content: center;
 	padding: 0.1em;
