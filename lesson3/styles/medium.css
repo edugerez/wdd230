@@ -1,0 +1,29 @@
+@media only screen and (min-width: 32.5em){
+    h1{
+		color:rgb(240, 189, 3);
+	}
+
+	nav {
+		font-size: 1.5em;
+		flex-direction: row;
+	    
+	}
+	nav div{
+		
+		flex:1 1 auto;
+	}
+
+
+	
+	nav a {
+		font-size: 1em;
+	}
+	main {
+		display: flex;
+	}
+	.main-design{
+		display: block;
+	}
+
+
+}
