@@ -1,0 +1,14 @@
+@media only screen and (min-width: 35rem){
+    nav button{
+        display: none;
+    }
+    nav ul{
+        display: flex;
+        
+    }
+    nav ul li a{
+        border-top:none;
+        border-right:2px solid rgba(0, 0,0, .2)
+    }
+
+}

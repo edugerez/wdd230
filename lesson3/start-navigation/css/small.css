@@ -1,0 +1,53 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+nav{
+    background-color: rgba(190, 190, 190, 0.541);
+}
+nav button{
+    background-color: transparent;
+    border:none;
+    font-size: 2.2em;
+    color:rgb(96, 93, 93);
+    margin:.1em;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    padding: .5em .8em;
+    border-top: 2px solid rgba(0,0,0,.4);
+    
+}
+nav ul li a:hover{
+    background-color: rgba(0,0,0,.2);
+}
+
+
+nav ul {
+    display: none;
+    margin:0;
+    list-style:none;
+    padding:0;
+}
+
+nav ul.open{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

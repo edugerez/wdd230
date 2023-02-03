@@ -1,0 +1,10 @@
+@media only screen and (min-width:64rem){
+    nav ul li a{
+        
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    nav{
+        box-shadow: 15px 2px 0px 2px rgb(130, 6, 6);
+    }
+}
