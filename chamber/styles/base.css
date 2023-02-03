@@ -1,0 +1,54 @@
+
+
+header{
+    display: flex;
+    background-color: #1B5773;
+    flex-direction: row;
+
+}
+header div.logo{
+    width: 10%;
+    border: solid black;
+}
+
+header div.logo img{
+    width: 100%;
+}
+.social{
+    display: flex;
+    width:20%;
+}
+
+
+.social a img{
+    width: 120%;
+    transition: all 0.2s;
+}
+
+.social a img:hover{
+    transform: scale(1.2);
+    filter:sepia(1);
+
+}
+button div{
+    width: 35px;
+    height: 5px;
+    background-color:white;
+    margin: 6px 0;      
+}
+button{
+  
+    background-color: transparent;
+    border: none;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(247, 232, 23);
+   
+}
+nav ul li{
+    list-style-type: none;
+    padding-top: 2em ;
+}
