@@ -1,27 +1,60 @@
 
 
 header{
-    display: flex;
-    background-color: #1B5773;
-    flex-direction: row;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+/*color from colorzilla.com*/
+header{
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#211b1f+5,1b5773+18 */
+background: rgb(33,27,31); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(33,27,31,1) 5%, rgba(27,87,115,1) 18%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(33,27,31,1) 5%,rgba(27,87,115,1) 18%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(33,27,31,1) 5%,rgba(27,87,115,1) 18%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#211b1f', endColorstr='#1b5773',GradientType=1 ); /* IE6-9 */
 
 }
+
+#main-header{
+    grid-row:1/2;
+    display: flex;
+    flex-direction: row;
+}
+
 header div.logo{
-    width: 10%;
-    border: solid black;
+    padding: 1em;
+    width: 20%;
 }
 
 header div.logo img{
     width: 100%;
 }
-.social{
+.headings h1{
+    margin: 0 auto;
+    padding-top: .3em;
+    font-size: 3em;
+    color:#F1BA54
+}
+
+.headings h2{
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+    color:#71d2ec;
+}
+
+div.social{
+    height: 2em;
+    padding:1em;
     display: flex;
-    width:20%;
+    width:25%;
 }
 
 
+
 .social a img{
-    width: 120%;
+    width: 100%;
     transition: all 0.2s;
 }
 
@@ -32,18 +65,21 @@ header div.logo img{
 }
 button div{
     width: 35px;
-    height: 5px;
-    background-color:white;
-    margin: 6px 0;      
+    height: 3px;
+    background-color:rgba(255, 255, 255, 0.947);
+    margin: 8px 0;      
 }
 button{
-  
+    padding-right: 2em;
+    padding-top: 1.5em;
     background-color: transparent;
     border: none;
 }
 
 
+
 nav ul li a{
+    display: block;
     text-decoration: none;
     color: rgb(247, 232, 23);
    
@@ -51,4 +87,20 @@ nav ul li a{
 nav ul li{
     list-style-type: none;
     padding-top: 2em ;
+}
+
+
+nav ul{
+    display: none;
+}
+nav ul.open{
+    display: block;
+}
+
+.div-date{
+    grid-row: 2/3;
+    background-color: rgba(77, 136, 164, 0.491);
+    color: rgba(255, 255, 255, 0.802);
+    padding: .5em;
+    text-align: center;
 }

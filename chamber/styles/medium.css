@@ -1,0 +1,20 @@
+@media only screen and (min-width: 32.5em){
+    .headings h1{
+        font-size: 4em;
+        color:beige
+    }
+
+    div.social{
+        width: 15%;
+    }
+    button div{
+        width: 55px;
+        height: 4px;
+        background-color:rgba(255, 255, 255, 0.947);
+        margin: 10px 0;      
+    }
+    #main-header{
+        justify-content: space-evenly;
+    }
+
+}

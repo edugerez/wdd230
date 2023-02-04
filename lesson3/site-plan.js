@@ -1,5 +1,4 @@
 
-
 const date = document.querySelector("#date");
 const message = document.querySelector("#emessage");
 
@@ -18,3 +17,5 @@ try {
 
 
 document.getElementById("update").innerHTML= new Date(document.lastModified);
+
+
