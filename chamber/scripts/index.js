@@ -38,3 +38,6 @@ function menuToggle(){
 
 const x= document.getElementById("menuBtn")
 x.onclick=menuToggle;
+
+
+document.getElementById("update").innerHTML= new Date(document.lastModified);
