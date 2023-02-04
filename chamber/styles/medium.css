@@ -40,3 +40,20 @@
     }
 
 }
+
+
+/*main*/
+
+main{
+    display: grid;
+    grid-template-areas: "hero hero"
+                          "news news"
+                          "section-spots section-spots"                       
+                          "join join"
+                          "event weather";
+    grid-gap: 5px;
+}
+
+.join{
+    display: flex;
+}

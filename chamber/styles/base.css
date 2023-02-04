@@ -155,7 +155,7 @@ main{
 .section-spots{
     grid-area: section-spots;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
 }
 .join{
