@@ -87,10 +87,21 @@
                              "join      news   news   section-spots";
     }
     #hero{
-        height: auto;
+        padding: 0;
+        display: flex;
+        height:700px;
+        color: white;
+        font-size: 3em;
         background-color: black;
         display: flex;
         align-items: stretch;
+    }
+    #hero h5{
+        display: flex;
+        margin: 0 auto;
+        align-self: center;
+        text-align: center;
+     
     }
     div.section-spots{
         display: block;
