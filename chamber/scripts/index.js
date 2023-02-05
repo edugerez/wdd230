@@ -33,6 +33,7 @@ document.querySelector("#date").textContent = fulldate;
 
 function menuToggle(){
     document.getElementById("naver").classList.toggle("open");
+	document.getElementById("menuBtn").classList.toggle("open");
 
 }
 

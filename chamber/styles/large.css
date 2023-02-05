@@ -1,0 +1,102 @@
+@media (min-width: 48em) {
+    
+    header .logo{
+        align-self: center;
+    }
+    
+    div .headings{
+        padding-left: 1em;
+        padding-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+     }
+
+     .headings h1{
+        margin: 0;
+        padding-left: .1em;
+        font-size: 5em;
+       
+    }
+     .headings h2{
+        font-size: 1.5em;
+
+     }
+     .div-date{
+        font-size: 1.5em;
+     }
+
+    button{
+        display: none;
+    }
+
+    nav ul {
+        width: 35em;
+        display: flex;
+        margin: 0 auto;
+    }
+    nav ul li{
+        background-color: transparent;
+    }
+    nav ul li a{
+        padding: 1em;
+        
+    }
+
+    div.social{
+        align-self: center;
+        padding: 3em;
+        width:10%;
+        order: 2;
+    }
+    nav ul li a:hover{
+        background-color: transparent;
+        color: #adecfd;
+        text-shadow: 4px 4px 12px rgb(220, 248, 251);
+    }
+
+    .rights{
+        display: flex;
+
+        justify-content: center;
+    }
+    .rights hr{
+        display:none }
+
+    .rights h5{
+        margin-top: 1em;
+        padding: 1em;
+        border-right:solid 0.1em rgba(236, 166, 13, 0.749);
+    }
+
+    div.info-footer h4{
+        color: rgba(255, 255, 255, 0.775);
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+
+
+    /*main*/
+
+    main{
+        grid-template-areas: "event     hero   hero   section-spots"
+                             "weather   hero   hero   section-spots"
+                             "join      news   news   section-spots";
+    }
+    #hero{
+        height: auto;
+        background-color: black;
+        display: flex;
+        align-items: stretch;
+    }
+    div.section-spots{
+        display: block;
+    }
+    div.section-spots .soptlight3{
+        display: block;
+       }
+
+}
