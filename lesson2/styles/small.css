@@ -1,6 +1,7 @@
-#content{
+main{
    background-color: rgb(226, 216, 230);
-   text-align: center;
+   justify-items: center;
+   margin: 0 auto;
    display: grid;
    grid-template-areas:"header"
                         "box1"
@@ -8,6 +9,9 @@
                         "box3"
                         "footer"
     
+}
+*{
+    text-align: center;
 }
 
 header{
