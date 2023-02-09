@@ -3,6 +3,13 @@
     div .social{
        width: 15%;
     }
+    div.headings{
+        padding-top: 1em;
+        padding-right: 4em;
+    }
+    button#menuBtn{
+        padding: 0;
+    }
     header .logo{
         width: 10%;
     }

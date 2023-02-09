@@ -2,6 +2,8 @@
     
     header .logo{
         align-self: center;
+        width: 7em;
+        padding-left: 3em;
     }
     
     div .headings{

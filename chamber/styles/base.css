@@ -1,5 +1,5 @@
 
-
+*{font-family: 'Work Sans', sans-serif;}
 header{
     display: grid;
     grid-template-rows: auto auto;
@@ -9,7 +9,7 @@ header{
 header{
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+9,000000+17,243240+30,243240+71,243240+91,243240+98 */
 background: #000000; /* Old browsers */
-background: -moz-linear-gradient(left,  #000000 9%, #000000 17%, #243240 30%, #243240 71%, #243240 91%, #243240 98%); /* FF3.6-15 */
+background: -moz-linear-gradient(left,  #000000 9%, #000000 17%, #243240 30%, #243240 71%, #243240 91%, #293c50 98%); /* FF3.6-15 */
 background: -webkit-linear-gradient(left,  #000000 9%,#000000 17%,#243240 30%,#243240 71%,#243240 91%,#243240 98%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to right,  #000000 9%,#000000 17%,#243240 30%,#243240 71%,#243240 91%,#243240 98%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#243240',GradientType=1 ); /* IE6-9 */
@@ -32,19 +32,19 @@ div.logo img{
 }
 div.headings{
     width:40%;
-    padding-right: 7em;
+    padding-right: 1em;
 }
 .headings h1{
     margin: 0 auto;
     padding-top: .1em;
-    font-size: 4em;
+    font-size: 2.5em;
     color:#F1BA54
 }
 
 .headings h2{
     font-size: 1em;
     margin: 0;
-    padding-left:1em;
+    padding-left:.5em;
     color:#71d2ec;
 }
 
@@ -52,7 +52,7 @@ div.social{
     height: 5em;
     padding:1em;
     display: flex;
-    width:25%;
+    width:30%;
     justify-items: center;
 }
 
@@ -68,9 +68,9 @@ div.social{
     filter:sepia(1);
 
 }
-button div{
+button hr{
     width: 30px;
-    height: 2px;
+    height: 1px;
     background-color:rgba(255, 255, 255, 0.947);
     margin: 7px 0;      
 }
@@ -79,6 +79,9 @@ button{
     padding-top: 1.5em;
     background-color: transparent;
     border: none;
+}
+button#menuBtn{
+    padding-top: 1em;
 }
 button span{
     display: none;
