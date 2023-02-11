@@ -9,7 +9,7 @@
 
 
 img{
-	width:100%;
+	width:80%;
 }
 
 header,
@@ -53,7 +53,8 @@ nav {
 	background-color: #4099B1;
 	text-align: center;
 	box-shadow:  2px 2px 10px rgb(19, 19, 19);
-    font-size: larger;
+	font-size: larger;
+
     
 }
 
@@ -91,8 +92,28 @@ footer {
 	
 }
 
-.scenarios
-{
+/*target-audience*/
+
+div.photo-div{
+	width: 40%;
+	margin: 0 auto;
+}
+
+.personas ul{
+	padding: .3em;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	float: left;
+	list-style-type: none;
+}
+.personas ul li{
+	padding-top: .2em;
+}
+
+section .scenarios li{ 
+	list-style-type:circle;
+	color: #1B5773;
 	text-align: justify;
 }
 
