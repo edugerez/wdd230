@@ -37,8 +37,34 @@ main{
     grid-gap: 5px;
 }
 
+#hero h2{
+    font-size: 3em;
+}
+
+#hero button{
+    font-size: 1.7em;
+}
+
 .join{
-    display: flex;
+    display:block;
+    padding: .5em;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+    background-color: #05243f;
+    color: white;
+    text-shadow: #0ec6e7 4px 4px 10px;
+    padding-bottom: 3em;
+}
+.join button{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: 20px;
+    
 }
 
 

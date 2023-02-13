@@ -1,8 +1,10 @@
 
-*{font-family: 'Work Sans', sans-serif;}
+*{font-family: 'Work Sans', sans-serif;
+}
 header{
     display: grid;
     grid-template-rows: auto auto;
+    
 }
 
 /*color from colorzilla.com*/
@@ -15,6 +17,9 @@ background: linear-gradient(to right,  #000000 9%,#000000 17%,#243240 30%,#24324
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#243240',GradientType=1 ); /* IE6-9 */
 
 }
+
+
+
 
 #main-header{
     grid-row:1/2;
@@ -140,8 +145,20 @@ nav ul.open{
 
 
 /* main*/
+body h6{
+    display:none;
+    margin: 0 auto;
+    font-size:1.2em ;
+    text-align: center;
+    padding: .5em;
+    color:#0d5574;
+    box-shadow: #e29b0e 2px 0px 25px;
+    border:solid 14px  rgba(255, 187, 0, 0.532);
+}
 
-
+body h6.active{
+    display:block;
+}
 main div{
     background-color: #38547025;
     width: auto;
@@ -157,13 +174,18 @@ main{
                           "section-spots"
                           "join";
     grid-gap: 5px;
+  
 }
 
 #hero{
     grid-area: hero;
     position: relative;
     width: auto;
-    height: 9rem;
+    height: auto;
+}
+#hero img{
+    width: 100%;
+    filter:opacity(50%)
 }
 
 #hero button{
@@ -180,7 +202,9 @@ main{
 
 #hero h2{
     position: absolute;
-    color: #1B5773;
+    font-size: 2em;
+    color:#00d0ff;
+    text-shadow: 5px 5px 5px #000000;
     left: 1em;
     top: 1em;
 }
@@ -192,6 +216,7 @@ main{
     padding: .5em;
     background-color:#F1BA54;
     color:#0d5574;
+    margin: 0 auto;
 }
 
 .event h3{
@@ -213,19 +238,26 @@ main{
 
 .weather{
     grid-area: weather;
-  
+    justify-self: center;
+    align-self: center;
     height: auto;
-    width: auto;}
-    
-.weather a{
-    width: 100%;
-    background-color: #1B5773;
+    width: auto;
+    margin: 0 auto;
 }
-
-
 
 .news{
     grid-area: news;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: 1.5em;
+    background-color: #08212c;
+    color: #0ec3ff;
+    margin: 0 auto;
+}
+.news h2{
+    color: white;
+    text-decoration: overline;
 }
 
 
@@ -235,7 +267,60 @@ div.section-spots{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
 }
+
+.soptlight1{
+    padding: 1em;
+    background-color: #243240;
+    text-align: center;
+    width: auto;
+    height: auto;
+    color: white;
+   
+
+}
+
+.soptlight1 img{
+    border-radius: 100%;
+    border-color: #F1BA54;
+    width: 80%;
+}
+
+
+.soptlight2{
+  
+    width: auto;
+    height: auto;
+    position: relative;
+}
+
+.soptlight2 h5{
+    text-align: center;
+    position: absolute;
+    top: .1rem;
+    padding: .5em;
+    color:white;
+    font-size: 1.5em;
+    background-color: rgba(0, 0,  0, .4);
+}
+.soptlight2 img{
+    width: 100%;
+}
+.soptlight2 button{
+    background-color: rgb(212, 100, 2);
+    font-size: 1.8em;
+    color: white;
+    border-color:white;
+    border-radius: 20px;
+    position:absolute;
+    padding: .2em;
+    bottom: 1em;
+    right: 1em;
+}
+
 .join{
     grid-area: join;
     display: none;

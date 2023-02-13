@@ -2,7 +2,7 @@
     
     header .logo{
         align-self: center;
-        width: 7em;
+        width: 12em;
         padding-left: 3em;
     }
     
@@ -18,27 +18,27 @@
      .headings h1{
         margin: 0;
         padding-left: .1em;
-        font-size: 5em;
+        font-size: 8em;
        
     }
      .headings h2{
-        font-size: 1.5em;
+        font-size: 1.8em;
 
      }
      .div-date{
-        font-size: 1.5em;
+        font-size: 2em;
      }
 
-    button{
+    nav button{
         display: none;
     }
 
     nav ul {
-        width: 35em;
         display: flex;
         margin: 0 auto;
     }
     nav ul li{
+        font-size: 1.5em;
         background-color: transparent;
     }
     nav ul li a{
@@ -58,53 +58,55 @@
         text-shadow: 4px 4px 12px rgb(220, 248, 251);
     }
 
-    .rights{
-        display: flex;
-
-        justify-content: center;
-    }
-    .rights hr{
-        display:none }
-
-    .rights h5{
-        margin-top: 1em;
-        padding: 1em;
-        border-right:solid 0.1em rgba(236, 166, 13, 0.749);
-    }
-
-    div.info-footer h4{
-        color: rgba(255, 255, 255, 0.775);
-        text-align: center;
-        margin: 0 auto;
-    }
-
 
 
 
     /*main*/
 
     main{
+        background-color: rgb(3, 29, 41);
         grid-template-areas: "event     hero   hero   section-spots"
                              "weather   hero   hero   section-spots"
                              "join      news   news   section-spots";
     }
-    #hero{
-        padding: 0;
-        display: flex;
-        height:700px;
-        color: white;
-        font-size: 3em;
-        background-color: black;
-        display: flex;
-        align-items: stretch;
-    }
-    #hero h5{
-        display: flex;
-        margin: 0 auto;
+    #hero{     
+        
         align-self: center;
-        text-align: center;
-     
+        background-color: black;
     }
+
+        
+    #hero h2{
+        font-size: 6em;
+        text-shadow: rgb(244, 247, 248) 0px 4px 40px;
+    }
+    #hero button{
+        font-size: 2.5em;
+    }
+    .event{
+        width: 30em;
+        padding: 4em;
+        padding-top: 12em;
+       
+    }
+    .event h3{
+        font-size: 2.5em;
+        margin-bottom: 2em;        
+    }
+    .event span{
+        font-size: 2em;
+    }
+    .event p{
+        padding: .3em;
+        font-size: 2em;
+    }
+
+
+    h6.active{
+        font-size: 3em;
+    }
+
+   
     div.section-spots{
         display: block;
     }
@@ -112,4 +114,27 @@
         display: block;
        }
 
+}
+
+
+
+/*footer*/
+
+.rights{
+    display: flex;
+    justify-content: center;
+}
+.rights hr{
+    display:none }
+
+.rights h5{
+    margin-top: 1em;
+    padding: 1em;
+    border-right:solid 0.1em rgba(236, 166, 13, 0.749);
+}
+
+div.info-footer h4{
+    color: rgba(255, 255, 255, 0.775);
+    text-align: center;
+    margin: 0 auto;
 }

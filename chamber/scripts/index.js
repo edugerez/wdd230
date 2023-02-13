@@ -1,3 +1,6 @@
+
+( "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.")
+
 const date = document.querySelector("#date");
 
 const daynames = [
@@ -42,3 +45,13 @@ x.onclick=menuToggle;
 
 
 document.getElementById("update").innerHTML= new Date(document.lastModified);
+
+const bannerAlert=document.getElementById("banner")
+function banner(){
+	if(d.getDay()==1 || d.getDay()==2){
+	bannerAlert.classList.toggle("active")       
+}
+
+}
+
+banner()
