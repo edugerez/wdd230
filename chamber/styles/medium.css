@@ -45,11 +45,7 @@ main{
     border-radius: 25px;
     font-size: 1.7em;
 }
-#hero button:hover{
-    background-color:rgba(1, 52, 74, 0.8);
-    border-color: gold;
-    padding: .4em;
-}
+
 
 .join{
     display:flex;

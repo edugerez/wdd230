@@ -71,15 +71,16 @@
     }
 
     .join{
-        font-size: 1.5em;
+        font-size: 1em;
         padding: 1.2em;
         align-self:center;
-        height: 14em;  
-        background-color: rgb(19, 98, 72);
+        height: 18em;  
+     
     }
    
     #hero{     
         background-color: rgba(2, 2, 2, 0.6);
+        align-self: center;
        
     }
 
@@ -89,23 +90,22 @@
         text-shadow: rgb(0, 0, 0) 0px 4px 40px;
     }
     #hero button{
-        bottom: 4em;
+        bottom: 2em;
         font-size: 2em;
     }
     #hero img{
         width: 100%;
-        position:absolute;
-        top: 4em;
+      
     }
     .event{
-        width: 30em;
-        padding: 2em;
-        padding-bottom: 2em;
+        margin-top: 2em;
+        width: 20em;
+        padding: 1em;
         padding-top: 5em;
        
     }
     .event h3{
-        font-size: 2em;
+        font-size: 1.5em;
         margin-bottom: 2em;        
     }
     .event span{
@@ -118,7 +118,7 @@
 
 
     h6.active{
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
    .news{
@@ -126,13 +126,15 @@
     font-size: 1.5em;
    }
     div.section-spots{
+        margin-top: 2em;
         display: block;
+        width: 25em;
     }
     div.section-spots .soptlight3{
         display: block;
        }
    .soptlight2{
-    font-size: 1.5em;
+    font-size: 1.3em;
    }
    .soptlight1{
     font-size: 1em;
@@ -142,7 +144,7 @@
    }
     .soptlight3{
         padding: 1em;
-        font-size: 1.5em;
+        font-size: 1em;
         height: auto;
         width: auto;
         text-align:center;
@@ -154,12 +156,12 @@
         font-size: 2em;
     }
     .soptlight3 h4{
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
     .soptlight3 p{
 
         color: coral;
-        font-size: 1.4em;
+        font-size: 1.5em;
     }
     .soptlight3 p:hover{
         color: rgb(254, 254, 0);
