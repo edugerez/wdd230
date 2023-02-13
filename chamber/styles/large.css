@@ -64,29 +64,44 @@
     /*main*/
 
     main{
-        background-color: rgb(3, 29, 41);
+        
         grid-template-areas: "event     hero   hero   section-spots"
-                             "weather   hero   hero   section-spots"
+                             "weather  hero   hero   section-spots"
                              "join      news   news   section-spots";
     }
+
+    .join{
+        font-size: 1.5em;
+        padding: 1.2em;
+        align-self:center;
+        height: 14em;  
+        background-color: rgb(19, 98, 72);
+    }
+   
     #hero{     
-        
-        align-self: center;
-        background-color: black;
+        background-color: rgba(2, 2, 2, 0.6);
+       
     }
 
         
     #hero h2{
-        font-size: 6em;
-        text-shadow: rgb(244, 247, 248) 0px 4px 40px;
+        font-size: 8em;
+        text-shadow: rgb(0, 0, 0) 0px 4px 40px;
     }
     #hero button{
-        font-size: 2.5em;
+        bottom: 4em;
+        font-size: 3em;
+    }
+    #hero img{
+        width: 100%;
+        position:absolute;
+        top: 4em;
     }
     .event{
         width: 30em;
-        padding: 4em;
-        padding-top: 12em;
+        padding: 2em;
+        padding-bottom: 2em;
+        padding-top: 5em;
        
     }
     .event h3{
@@ -106,17 +121,50 @@
         font-size: 3em;
     }
 
-   
+   .news{
+    height: auto;
+    font-size: 2.3em;
+   }
     div.section-spots{
         display: block;
     }
     div.section-spots .soptlight3{
         display: block;
        }
+   .soptlight2{
+    font-size: 2em;
+   }
+   .soptlight1{
+    font-size: 1.5em;
+   }
+   .soptlight1 p{
+    font-size: 1.5em;
+   }
+    .soptlight3{
+        padding: 1em;
+        font-size: 2em;
+        height: auto;
+        width: auto;
+        text-align:center;
+        background-color: rgb(21, 72, 108);
+        color: #adecfd;
+    }
+    .soptlight3 h5{
+        color: white;
+        font-size: 2em;
+    }
+    .soptlight3 h4{
+        font-size: 1.6em;
+    }
+    .soptlight3 p{
 
-}
-
-
+        color: coral;
+        font-size: 1.4em;
+    }
+    .soptlight3 p:hover{
+        color: rgb(254, 254, 0);
+    }
+    
 
 /*footer*/
 
@@ -137,4 +185,9 @@ div.info-footer h4{
     color: rgba(255, 255, 255, 0.775);
     text-align: center;
     margin: 0 auto;
+}
+footer{
+    font-size: 1.8em;
+    margin-top: .2em;
+}
 }

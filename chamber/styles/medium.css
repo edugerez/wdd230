@@ -42,11 +42,18 @@ main{
 }
 
 #hero button{
+    border-radius: 25px;
     font-size: 1.7em;
+}
+#hero button:hover{
+    background-color:rgba(1, 52, 74, 0.8);
+    border-color: gold;
+    padding: .4em;
 }
 
 .join{
-    display:block;
+    display:flex;
+    flex-direction: column;
     padding: .5em;
     width: auto;
     height: auto;
@@ -66,8 +73,17 @@ main{
     border-radius: 20px;
     
 }
+.join button:hover{
+    background-color: rgba(2, 2, 2, 0.6);
+   padding: .6em;
+   border-color: greenyellow;
+    color: coral;
+}
 
-
+.soptlight2 button:hover{
+    background-color: rgba(2, 2, 2, 0.6);
+    padding: .3em;
+}
 /*footer*/
 
 footer{
@@ -76,6 +92,7 @@ footer{
                           "rights rights rights";
     justify-items: stretch;
     align-items: stretch;
+
 }
 
 footer .logo{ 
