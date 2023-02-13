@@ -213,12 +213,22 @@ main{
 
 .weather{
     grid-area: weather;
+  
+    height: auto;
+    width: auto;}
     
-    
+.weather a{
+    width: 100%;
+    background-color: #1B5773;
 }
+
+
+
 .news{
     grid-area: news;
 }
+
+
 div.section-spots{
    
     grid-area: section-spots;
