@@ -18,15 +18,15 @@
      .headings h1{
         margin: 0;
         padding-left: .1em;
-        font-size: 8em;
+        font-size: 6em;
        
     }
      .headings h2{
-        font-size: 1.8em;
+        font-size: 1.5em;
 
      }
      .div-date{
-        font-size: 2em;
+        font-size: 1.5em;
      }
 
     nav button{
@@ -38,7 +38,7 @@
         margin: 0 auto;
     }
     nav ul li{
-        font-size: 1.5em;
+        font-size: 1.2em;
         background-color: transparent;
     }
     nav ul li a{
@@ -85,12 +85,12 @@
 
         
     #hero h2{
-        font-size: 8em;
+        font-size: 5em;
         text-shadow: rgb(0, 0, 0) 0px 4px 40px;
     }
     #hero button{
         bottom: 4em;
-        font-size: 3em;
+        font-size: 2em;
     }
     #hero img{
         width: 100%;
@@ -105,25 +105,25 @@
        
     }
     .event h3{
-        font-size: 2.5em;
+        font-size: 2em;
         margin-bottom: 2em;        
     }
     .event span{
-        font-size: 2em;
+        font-size: 1.4em;
     }
     .event p{
         padding: .3em;
-        font-size: 2em;
+        font-size: 1.4em;
     }
 
 
     h6.active{
-        font-size: 3em;
+        font-size: 2em;
     }
 
    .news{
     height: auto;
-    font-size: 2.3em;
+    font-size: 1.5em;
    }
     div.section-spots{
         display: block;
@@ -132,17 +132,17 @@
         display: block;
        }
    .soptlight2{
-    font-size: 2em;
+    font-size: 1.5em;
    }
    .soptlight1{
-    font-size: 1.5em;
+    font-size: 1em;
    }
    .soptlight1 p{
     font-size: 1.5em;
    }
     .soptlight3{
         padding: 1em;
-        font-size: 2em;
+        font-size: 1.5em;
         height: auto;
         width: auto;
         text-align:center;
@@ -154,7 +154,7 @@
         font-size: 2em;
     }
     .soptlight3 h4{
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
     .soptlight3 p{
 
@@ -187,7 +187,7 @@ div.info-footer h4{
     margin: 0 auto;
 }
 footer{
-    font-size: 1.8em;
+    font-size: 1.4em;
     margin-top: .2em;
 }
 }
