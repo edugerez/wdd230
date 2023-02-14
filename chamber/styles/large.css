@@ -33,26 +33,37 @@
         display: none;
     }
 
-    nav ul {
+    header ul {
+        align-self: center;
+        top: 4em;
+        right: 20em;
+        position: absolute;
         display: flex;
-        margin: 0 auto;
-    }
-    nav ul li{
-        font-size: 1.2em;
+        flex-direction: row;
+        align-self: center;
         background-color: transparent;
+       
     }
-    nav ul li a{
+    header ul li{
+        font-size: 1.5em;
+        background-color: transparent;
+        
+    }
+    header ul li a{
         padding: 1em;
+        
         
     }
 
     div.social{
         align-self: center;
+        position: absolute;
         padding: 3em;
-        width:10%;
-        order: 2;
+        width:8%;
+        right: 5em;
+
     }
-    nav ul li a:hover{
+    header ul li a:hover{
         background-color: transparent;
         color: #adecfd;
         text-shadow: 4px 4px 12px rgb(220, 248, 251);

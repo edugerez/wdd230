@@ -9,6 +9,8 @@
     }
     button#menuBtn{
         padding: 0;
+        color: #00d9ff;
+        top:-.6em
     }
     header .logo{
         width: 10%;
