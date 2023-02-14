@@ -36,12 +36,15 @@ document.querySelector("#date").textContent = fulldate;
 
 function menuToggle(){
     document.getElementById("naver").classList.toggle("open");
-	document.getElementById("menuBtn").classList.toggle("open");
+	document.querySelector("nav").classList.toggle("open");
 
 }
 
 const x= document.getElementById("menuBtn")
 x.onclick=menuToggle;
+const span= document.getElementById("span")
+span.onclick=menuToggle;
+
 
 
 document.getElementById("update").innerHTML= new Date(document.lastModified);

@@ -1,11 +1,7 @@
 
 *{font-family: 'Work Sans', sans-serif;
 }
-header{
-    display: grid;
-    grid-template-rows: auto auto;
-    
-}
+
 
 /*color from colorzilla.com*/
 header{
@@ -22,7 +18,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 
 #main-header{
-    grid-row:1/2;
     display: flex;
     flex-direction: row;
 }
@@ -73,38 +68,45 @@ div.social{
     filter:sepia(1);
 
 }
-nav button div{
-    width: 30px;
-    height: 2px;
-    background-color:rgba(255, 255, 255, 0.947);
-    margin: 7px 0;      
+
+nav{
+    position: relative;
+    width: 5em;
+ 
 }
-nav button{
-    padding-right: 2em;
-    padding-top: 1.5em;
+nav button {
+    position: absolute;
+    top: .8em;
+    font-size: 2em;
     background-color: transparent;
     border: none;
+    color: white;    
 }
-button#menuBtn{
-    padding-top: 1em;
-}
-button span{
+nav span{
     display: none;
     margin-right:-7em;
     font-size:2em;
     text-shadow: 1px 1px 10px rgb(12, 245, 24);
 }
 
-button.open span{
+nav.open span{
     display: block;
+    position: absolute;
+    top: .8em;
 }
-button.open div{
+ nav.open #menuBtn{
     display: none;
 }
+header ul{
+    background-color: azure;
+    display: block;
+}
+ul .open{
+    background-color: azure;
+   
+}
 
-
-
-nav ul li a{
+ul li a{
     padding: .5em ;
     font-size: 1.7em ;
     display: block;
@@ -130,13 +132,14 @@ nav ul{
     display: none;
 }
 nav ul.open{
+   
     display: flex;
     flex-direction: column;
     
 }
 
 .div-date{
-    grid-row: 2/3;
+    grid-row: 3/4;
     background-color: rgba(77, 136, 164, 0.491);
     color: rgba(255, 255, 255, 0.802);
     padding: .5em;
@@ -192,7 +195,6 @@ main{
     background-color: #000000;
     color: #ffa602;
     border-radius: 4px;
-    
     padding: .5em;
     position: absolute;
     bottom: 1em;
