@@ -8,13 +8,13 @@
 		margin: 0 auto;
 		margin-bottom: 2em;
 	}
-	picture{
+	.logo{
 		width: 20%;
 	}
-	picture img{
+	.logo img{
 		width: 90%;
 	}
-	picture h2{
+	.logo h2{
 		margin-top: 2em;
 		margin-bottom: 0;
 	}
