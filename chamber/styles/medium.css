@@ -1,33 +1,28 @@
-@media only screen and (min-width: 35em){
+@media only screen and (min-width: 768px){
     
-    div .social{
-       width: 15%;
-    }
-    div.headings{
-        padding-top: 1em;
-        padding-right: 4em;
-    }
+   header{
+    font-size: 1.3em;
+   }
     button#menuBtn{
         padding: 0;
         color: #00d9ff;
-        top:-.6em
-    }
-    header .logo{
-        width: 10%;
-    }
+       }
+  
     button{
     box-shadow: 2px 3px 35px rgba(38, 155, 213, 0.878);   
     padding:.5em;
 
     }
-    nav{
-        align-self: center;
+    div .logo{
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 2em;
+        
     }
-    .social a{
-        align-self: center;
-    }
+
     
-/*main*/
+  
+  /*main*/
 
 main{
     display: grid;
@@ -40,7 +35,7 @@ main{
 }
 
 #hero h2{
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 #hero button{
@@ -48,6 +43,14 @@ main{
     font-size: 1.7em;
 }
 
+.news{
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 
 .join{
     display:flex;
@@ -59,28 +62,45 @@ main{
     text-align: center;
     background-color: #05243f;
     color: white;
-    text-shadow: #0ec6e7 4px 4px 10px;
     padding-bottom: 3em;
 }
 .join button{
     background-color: black;
     color: rgb(255, 255, 255);
     font-size: 1.5em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
     border-radius: 20px;
+    width: 40%;
+    margin: 0 auto;
     
 }
 .join button:hover{
-    background-color: rgba(2, 2, 2, 0.6);
+   background-color: rgba(2, 2, 2, 0.6);
    padding: .6em;
    border-color: greenyellow;
-    color: coral;
+   color: coral;
 }
 
 .soptlight2 button:hover{
     background-color: rgba(2, 2, 2, 0.6);
     padding: .3em;
+}
+
+.event{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    padding: 0 3em 0 3em;
+    margin: 0 auto;
+}
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100%;
+    margin: 0 auto;
+    background-color: black;
 }
 /*footer*/
 
