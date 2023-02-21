@@ -18,17 +18,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 
 #main-header{
+    position: relative;
     display: flex;
     flex-direction: row;
+  
+    height: 6em;
+    align-items: center;
 }
 
 div.logo{
     padding: 1em;
-    width: 20%;
+    width: 3em;
 }
 
 div.logo img{
     width: 100%;
+
 }
 div.headings{
     width:40%;
@@ -36,24 +41,25 @@ div.headings{
 }
 .headings h1{
     margin: 0 auto;
-    padding-top: .1em;
-    font-size: 2.5em;
+    padding-top: .4em;
+    font-size: 2em;
     color:#F1BA54
 }
 
 .headings h2{
-    font-size: 1em;
+    font-size: .8em;
     margin: 0;
     padding-left:.5em;
     color:#71d2ec;
 }
 
 div.social{
-    height: 5em;
     padding:1em;
     display: flex;
-    width:30%;
-    justify-items: center;
+    width:4em;
+    position: absolute;
+    right: 12%;
+    top: 12%;
 }
 
 
@@ -70,18 +76,20 @@ div.social{
 }
 
 nav{
-    position: relative;
+ 
     width: 5em;
+ 
 
  
 }
 nav button {
     position: absolute;
-    top: .7em;
-    font-size: 2em;
     background-color: transparent;
+    right: 5%;
+    top: 30%;      
+    font-size: 1.5em;
     border: none;
-    color: white;    
+    color: rgb(255, 255, 255);    
 }
 nav span{ 
     display: none;
@@ -148,6 +156,7 @@ header ul.open{
     color: rgba(255, 255, 255, 0.802);
     padding: .5em;
     text-align: center;
+    font-size: .7em;
 }
 
 
@@ -155,12 +164,12 @@ header ul.open{
 body h6{
     display:none;
     margin: 0 auto;
-    font-size:1.2em ;
+    font-size:.8em ;
     text-align: center;
-    padding: .5em;
-    color:#0d5574;
-    box-shadow: #e29b0e 2px 0px 25px;
-    border:solid 14px  rgba(255, 187, 0, 0.532);
+    padding: .2em;
+    color:#1d4e63;
+    box-shadow: #e29b0e 0px 0px 30px;
+    border:solid 2px  rgba(255, 187, 0, 0.532);
 }
 
 body h6.active{
@@ -192,7 +201,8 @@ main{
 }
 #hero img{
     width: 100%;
-    filter:opacity(50%)
+    filter:opacity(50%);
+    object-fit: contain;
 }
 
 #hero button{
@@ -261,7 +271,7 @@ main{
     width: auto;
     height: auto;
     padding: 1.5em;
-    background-color: #08212c;
+    background-color: #092b3a;
     color: #0ec3ff;
     margin: 0 auto;
 }

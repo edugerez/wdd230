@@ -1,74 +1,41 @@
-@media (min-width: 48em) {
-    
-    header .logo{
-        align-self: center;
-        width: 12em;
-        padding-left: 3em;
-    }
-    
-    div .headings{
-        padding-left: 1em;
-        padding-right: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    
-     }
-
-     .headings h1{
-        margin: 0;
-        padding-left: .1em;
-        font-size: 6em;
-       
-    }
-     .headings h2{
-        font-size: 1.5em;
-
-     }
-     .div-date{
-        font-size: 1.5em;
-     }
-
+@media only screen and (min-width: 1024px){ 
     nav button{
         display: none;
     }
 
-    header ul {
-        align-self: center;
-        top: 4em;
-        right: 20em;
-        position: absolute;
+   header{
+    position: relative;
+   }
+
+    }
+    #naver{
         display: flex;
+        background-color: aqua;
+        top: 15%;
+        right: 12%;
+        position: absolute;
         flex-direction: row;
-        align-self: center;
         background-color: transparent;
+        font-size: .7em;
        
     }
-    header ul li{
-        font-size: 1.5em;
-        background-color: transparent;
-        
-    }
+    
+   
     header ul li a{
         padding: 1em;
-        
-        
     }
 
-    div.social{
-        align-self: center;
-        position: absolute;
-        padding: 3em;
-        width:8%;
-        right: 5em;
-
-    }
+    
     header ul li a:hover{
         background-color: transparent;
         color: #adecfd;
         text-shadow: 4px 4px 12px rgb(220, 248, 251);
     }
 
+    div .social{
+        right: 2%;
+    }
+  
 
 
 
@@ -81,66 +48,47 @@
                              "join      news   news   section-spots";
     }
 
-    .join{
-        font-size: 1em;
-        padding: 1.2em;
-        align-self:center;
-        height: 18em;  
-     
-    }
+  
    
+
     #hero{     
         background-color: rgba(2, 2, 2, 0.6);
         align-self: center;
-       
     }
 
         
     #hero h2{
-        font-size: 5em;
+        font-size: 3em;
         text-shadow: rgb(0, 0, 0) 0px 4px 40px;
     }
     #hero button{
-        bottom: 2em;
-        font-size: 2em;
+        font-size: 1.3em;
     }
     #hero img{
         width: 100%;
+        object-fit: contain;
       
     }
-    .event{
-        margin-top: 2em;
-        width: 20em;
-        padding: 1em;
-        padding-top: 5em;
+   
        
-    }
+ 
+    .event{
+        width:40%;
+        margin-left: 0;
+        text-align: center;
+       }
+    
     .event h3{
-        font-size: 1.5em;
-        margin-bottom: 2em;        
-    }
-    .event span{
-        font-size: 1.4em;
-    }
-    .event p{
-        padding: .3em;
-        font-size: 1.4em;
-    }
+          width:100%;
+        }
 
 
     h6.active{
-        font-size: 1.8em;
+        font-size: 1em;
     }
 
-   .news{
-    height: auto;
-    font-size: 1.5em;
-   }
-    div.section-spots{
-        margin-top: 2em;
-        display: block;
-        width: 25em;
-    }
+   
+    
     div.section-spots .soptlight3{
         display: block;
        }
@@ -150,9 +98,7 @@
    .soptlight1{
     font-size: 1em;
    }
-   .soptlight1 p{
-    font-size: 1.5em;
-   }
+  
     .soptlight3{
         padding: 1em;
         font-size: 1em;
@@ -162,20 +108,21 @@
         background-color: rgb(21, 72, 108);
         color: #adecfd;
     }
-    .soptlight3 h5{
-        color: white;
-        font-size: 2em;
-    }
-    .soptlight3 h4{
-        font-size: 1.5em;
-    }
-    .soptlight3 p{
 
+   .soptlight3 p{
         color: coral;
-        font-size: 1.5em;
-    }
+     }
+
     .soptlight3 p:hover{
         color: rgb(254, 254, 0);
+    }
+    .weather{
+       margin-left:0;
+       width: 70%;
+       align-items: center;
+       justify-content: center;
+       margin-top: 0;
+
     }
     
 
