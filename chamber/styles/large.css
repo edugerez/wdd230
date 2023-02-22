@@ -1,42 +1,48 @@
-@media only screen and (min-width: 1024px){ 
+
+@media (min-width: 1200px) {
+
+    main{
+        max-width: 98%;
+        margin: 0 auto;
+    }
+
+    .headings h1{
+        font-size: 3.5em;
+    }
     nav button{
         display: none;
     }
-
-   header{
-    position: relative;
-   }
-
-    }
-    #naver{
-        display: flex;
-        background-color: aqua;
-        top: 15%;
-        right: 12%;
+    header #naver{
         position: absolute;
-        flex-direction: row;
-        background-color: transparent;
-        font-size: .7em;
-       
-    }
-    
-   
-    header ul li a{
+        top: 4%;
+        right: 20%;
+        }
+
+    header #naver li{  
+        display: inline-block;
+        font-size: 1.3em;
         padding: 1em;
+        
     }
 
-    
-    header ul li a:hover{
+    header #naver li a{
+        text-decoration: none;      
+        padding: 0;
+        margin: 0;
+        color: rgb(251, 206, 5);
+
+    }
+    header #naver li a:hover{
         background-color: transparent;
-        color: #adecfd;
+        color: #60ddff;
+        font-weight: bold;
         text-shadow: 4px 4px 12px rgb(220, 248, 251);
     }
 
     div .social{
-        right: 2%;
+        left: 85%;
+        width: 4.2em;
     }
-  
-
 
 
     /*main*/
@@ -54,28 +60,38 @@
     #hero{     
         background-color: rgba(2, 2, 2, 0.6);
         align-self: center;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
     }
 
         
     #hero h2{
-        font-size: 3em;
+        font-size: 4em;
         text-shadow: rgb(0, 0, 0) 0px 4px 40px;
     }
     #hero button{
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
     #hero img{
-        width: 100%;
-        object-fit: contain;
+        width: 150%;
+        height: auto;
+        order: -999;
       
     }
    
        
  
-    .event{
-        width:40%;
+    .event{ 
+        background-color: rgb(244, 174, 11);
+        width: 10em;
+        height: auto;
         margin-left: 0;
         text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.8em;
+        margin-right: 0;
        }
     
     .event h3{
@@ -84,27 +100,29 @@
 
 
     h6.active{
-        font-size: 1em;
+        font-size: 1.5em;
     }
-
-   
     
-    div.section-spots .soptlight3{
-        display: block;
+    div.section-spots{
+        display:block;
+        background-color: white;
+        order: 1;
        }
    .soptlight2{
     font-size: 1.3em;
    }
+   .soptlight2 img{
+    width: 100%;
+   }
    .soptlight1{
     font-size: 1em;
    }
-  
-    .soptlight3{
-        padding: 1em;
-        font-size: 1em;
-        height: auto;
-        width: auto;
+   div.section-spots .soptlight3{
+        display: block;
+        padding: .5em;
+        font-size: 1.8em;
         text-align:center;
+        height: auto;
         background-color: rgb(21, 72, 108);
         color: #adecfd;
     }
@@ -116,15 +134,12 @@
     .soptlight3 p:hover{
         color: rgb(254, 254, 0);
     }
-    .weather{
-       margin-left:0;
-       width: 70%;
-       align-items: center;
-       justify-content: center;
-       margin-top: 0;
 
+    .news{
+        width: auto;
+        height: auto;
     }
-    
+
 
 /*footer*/
 
@@ -150,4 +165,5 @@ footer{
     font-size: 1.4em;
     margin-top: .2em;
 }
+
 }

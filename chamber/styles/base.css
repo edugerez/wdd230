@@ -14,14 +14,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 }
 
-
-
-
 #main-header{
     position: relative;
     display: flex;
     flex-direction: row;
-  
     height: 6em;
     align-items: center;
 }
@@ -41,9 +37,8 @@ div.headings{
 }
 .headings h1{
     margin: 0 auto;
-    padding-top: .4em;
     font-size: 2em;
-    color:#F1BA54
+    color:#f1cc54
 }
 
 .headings h2{
@@ -54,15 +49,13 @@ div.headings{
 }
 
 div.social{
+    position: absolute;
     padding:1em;
     display: flex;
-    width:4em;
-    position: absolute;
-    right: 12%;
-    top: 12%;
+    width:3.5em;
+    left: 65%;
+    top: 15%;
 }
-
-
 
 .social a img{
     width: 100%;
@@ -75,13 +68,7 @@ div.social{
 
 }
 
-nav{
- 
-    width: 5em;
- 
 
- 
-}
 nav button {
     position: absolute;
     background-color: transparent;
@@ -101,7 +88,8 @@ nav.open span{
     box-shadow:0px 0px 15px #00d0ff93;
     position: absolute;
     color: rgba(255, 255, 255, 0.877);
-    top: .6em;
+    top: 25%;
+    right: 10%;
     font-size:2.2em;
    }
  
@@ -109,46 +97,44 @@ nav.open span{
  nav.open #menuBtn{
     display: none;
 }
-header ul{
-    background-color: rgba(8, 8, 8, 0.555);
-    display: block;
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-    margin-top: 0;
-}
 
-header ul li a{
-    
-    padding: .2em ;
-    font-size: 1.5em ;
+header ul li{
+    display:none;
+ 
+}
+ul#naver.open{
+    padding-left: 0;
+    background-color: rgba(255, 255, 255, 0.125);
+  
+}
+header ul.open li{
     display: block;
-    text-decoration: none;
-    color: #f7a103
+    font-size: 1em;  
    
+    
+}
+header ul.open li a{
+    justify-content: center;
+    align-items: center;
+    padding: .5em;
+    display: flex;
+    text-decoration: none;
+    color: #F1BA54;
+    font-size: 1.5em;
+    font-weight: bold;
+    
 }
 
-header ul li a:hover{
-    background-color: rgba(29, 122, 184, 0.4);
-    color: #0ec3ff;
+header ul.open li a:hover{
+    background-color: rgba(17, 230, 253, 0.4);
 }
+
 
 header ul li a:active{
     color: aliceblue;
 }
 
 
-
-header ul{
-    display: none;
-}
-header ul.open{
-   
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-    
-}
 
 .div-date{
     grid-row: 3/4;

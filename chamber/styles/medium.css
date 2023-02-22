@@ -1,8 +1,13 @@
-@media only screen and (min-width: 768px){
-    
+
+@media (min-width: 576px) {
+   
    header{
-    font-size: 1.3em;
+    font-size: 1.5em;
    }
+   header #naver.open li a{
+    font-size: 1em;
+   }
+
     button#menuBtn{
         padding: 0;
         color: #00d9ff;
@@ -11,18 +16,25 @@
     button{
     box-shadow: 2px 3px 35px rgba(38, 155, 213, 0.878);   
     padding:.5em;
-
     }
+
     div .logo{
         padding-top: 0;
         padding-bottom: 0;
         padding-left: 2em;
-        
     }
 
-    
+    div.social{
+        left: 70%;
+    }
+
+    div#hero h2{
+        font-size: 3.5em;
+    }
+
   
   /*main*/
+  
 
 main{
     display: grid;
@@ -44,7 +56,10 @@ main{
 }
 
 .news{
-    height: 15em;
+    height: 20em;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0 4em 0 4em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,9 +72,10 @@ main{
     flex-direction: column;
     padding: .5em;
     width: auto;
-    height: auto;
+    height: 250px;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
     background-color: #05243f;
     color: white;
     padding-bottom: 3em;
@@ -97,10 +113,10 @@ main{
 .weather{
     display: flex;
     flex-direction: column;
-    width: 300px;
-    height: 100%;
-    margin: 0 auto;
-    background-color: black;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    background-color: transparent;
 }
 /*footer*/
 
