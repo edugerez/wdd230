@@ -1,5 +1,5 @@
 
-@media (min-width: 1200px) {
+@media (min-width: 1050px) {
 
     main{
         max-width: 98%;
@@ -14,18 +14,23 @@
     }
     header #naver{
         position: absolute;
-        top: 4%;
-        right: 20%;
+        top: 2%;
+        right: 15%;
+        width: 50%;
+        text-align: center;
+
         }
 
-    header #naver li{  
+    header #naver li{
+          
         display: inline-block;
-        font-size: 1.3em;
-        padding: 1em;
-        
+        font-size: 1.2em;
+        padding: .3em;
+        justify-items: space-evenly;
     }
 
     header #naver li a{
+  
         text-decoration: none;      
         padding: 0;
         margin: 0;
