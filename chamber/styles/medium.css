@@ -135,6 +135,26 @@ div.section-spots{
     object-fit: contain;
 }
 
+
+.soptlight3{
+    flex:1;
+    flex-basis: 0;
+    min-width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+.soptlight3 img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.soptlight3 img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
 .soptlight2 button:hover{
     background-color: rgba(2, 2, 2, 0.6);
     padding: .3em;
