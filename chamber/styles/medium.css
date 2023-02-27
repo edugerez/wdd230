@@ -96,6 +96,45 @@ main{
    color: coral;
 }
 
+div.section-spots{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: .5rem;
+   
+}
+
+.soptlight2{
+    flex:1;
+    background-color:rgb(85, 177, 188);
+    flex-basis: 0;
+
+    display: flex;
+    min-width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+
+.soptlight1{
+    flex:1;
+    flex-basis: 0;
+    min-width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+.soptlight1 img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.soptlight2 img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
 .soptlight2 button:hover{
     background-color: rgba(2, 2, 2, 0.6);
     padding: .3em;
