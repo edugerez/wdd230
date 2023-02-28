@@ -1,5 +1,5 @@
 
-@media (min-width: 1050px) {
+@media (min-width: 1024px) {
 
     main{
         max-width: 98%;
@@ -7,14 +7,14 @@
     }
 
     .headings h1{
-        font-size: 3.5em;
+        font-size: 3.5rem;
     }
     nav button{
         display: none;
     }
     header #naver{
         position: absolute;
-        top: 2%;
+        top: 5%;
         right: 15%;
         width: 50%;
         text-align: center;
@@ -24,8 +24,8 @@
     header #naver li{
           
         display: inline-block;
-        font-size: 1.2em;
-        padding: .3em;
+        font-size: 2rem;
+        padding: .9rem;
         justify-items: space-evenly;
     }
 
@@ -46,7 +46,7 @@
 
     div .social{
         left: 85%;
-        width: 4.2em;
+        width: 5rem;
     }
 
 
@@ -66,36 +66,39 @@
         background-color: rgba(2, 2, 2, 0.6);
         align-self: center;
         width: 100%;
-        height: 100%;
+        height: 35vw;
         overflow: hidden;
+    }
+    #hero img{
+        max-width: 160%;
+         height: auto;
+         width: 160%;
+         object-fit: cover;
     }
 
         
     #hero h2{
-        font-size: 4em;
+        font-size: 4rem;
         text-shadow: rgb(0, 0, 0) 0px 4px 40px;
     }
     #hero button{
-        font-size: 1.5em;
-    }
-    #hero img{
-        width: 150%;
-        height: auto;
-        order: -999;
-      
+        font-size: 2rem;
     }
    
+   .join{
+    height: auto;
+   }
        
  
     .event{ 
-        background-color: rgb(244, 174, 11);
-        width: 10em;
+        background-color: rgb(255, 179, 2);
+        width: auto;
         height: auto;
         margin-left: 0;
         text-align: center;
         justify-content: center;
         align-items: center;
-        font-size: 1.8em;
+        font-size: 1.5rem;
         margin-right: 0;
        }
     
