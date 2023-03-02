@@ -185,7 +185,7 @@ main{
     width: auto;
     height: auto;
 }
-#hero img{
+#hero picture img{
     width: 100%;
     filter:opacity(50%);
     object-fit: contain;

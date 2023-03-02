@@ -61,7 +61,13 @@
     <main>
        
         <div id="hero">
-        <img src="images/city.jpg" alt="image of the city of Mercedes">
+            <picture>
+                <source media="(max-width: 575px )" srcset="images/small-hero.jpg">
+                <source media="(min-width: 576px) and (max-width: 1023px)" srcset="images/medium-hero.jpg">
+                <source media="(min-width: 1024px)" srcset="images/large-hero.jpg">
+                <img src="images/small-hero.jpg" alt="responsive image activity">
+            </picture>
+       
         <h2>Welcome VMCM</h2> 
         <button class="call-to-action" type="submit" ><strong>Join the Chamber</strong></button>
         </div> 
