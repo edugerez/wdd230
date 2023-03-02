@@ -106,7 +106,13 @@
     
     .event h3{
           width:100%;
+          text-shadow: none;
         }
+
+    .event p{
+        background-color: darkslategrey;
+        padding: .4rem;
+    }
 
 
     h6.active{
