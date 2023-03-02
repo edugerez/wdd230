@@ -113,6 +113,15 @@
         padding: .4rem;
     }
 
+    .weather-section{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    #infoW p{
+        font-size: 2.5rem;
+        right: 5%;
+    }
 
     h6.active{
         font-size: 1.5em;
