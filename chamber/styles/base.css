@@ -343,6 +343,7 @@ div.section-spots{
     width: auto;
     height: auto;
     margin: 0 auto;
+    padding: .5rem;
 }
 
 .soptlight1{
@@ -352,6 +353,7 @@ div.section-spots{
     width: auto;
     height: auto;
     color: white;
+    margin: .2rem;
    
 
 }
@@ -368,6 +370,7 @@ div.section-spots{
     width: auto;
     height: auto;
     position: relative;
+    margin: .2rem;
 }
 
 .soptlight2 h5{
