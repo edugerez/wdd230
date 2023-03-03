@@ -240,8 +240,6 @@ main{
 }
 
 
-
-
   
 
 .weather-section{
@@ -249,10 +247,7 @@ main{
     flex-direction: column;
     padding: 1rem;
     border: 1px solid #eff4ff78;
-    border-radius: 5px;
     box-shadow: #ffffff40 0px 22px 50px;
-    border-radius: 25px;
-    border-width:2px;
     background-color: #006b75;
     color: #fff;
     position: relative;
@@ -300,6 +295,8 @@ main{
 #detail p{
     margin-left: 0;
     padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 #infoW{
     display: flex;

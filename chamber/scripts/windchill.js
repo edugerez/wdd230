@@ -17,12 +17,18 @@ fetch(apiUrl)
     const city = data.name;
     const info=data.main
     const weatherinfo = data.weather[0].description;
+    const windMS= data.wind.speed;
+    //convertion form ms to kh/h
+    const windKH=(windMS*3.6).toFixed(2);
     const weatherIcon = `http://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     const imgIco=document.createElement("img");
+    const windS=document.createElement("p");
+    windS.textContent=`Wind Speed: ${windKH} Km/h`
     imgIco.src=weatherIcon
     ico.appendChild(imgIco);
     place.textContent=city
     temperatureElement.textContent=weatherinfo
+    detail.appendChild(windS)
     getdetail(info)
   });
 }
@@ -47,7 +53,6 @@ function getdetail(info){
         } else {
           const pdetail = document.createElement('p');
           pdetail.textContent = `${item}: ${info[item]}`;
-          pdetail.style.padding=".3em";
           detail.appendChild(pdetail);
         }
       i++;
