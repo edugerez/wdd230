@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content {
+    background-color: rgba(0, 0, 0, 0.063);
+}
+
+header {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.Edu {
+    padding: 0.5rem;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    align-self: center;
+}
+
+nav {
+    text-align: center;
+    display: block;
+    background-color: rgba(212, 211, 220, 0.29);
+
+}
+
+ul {
+    padding: 0.5rem 0;
+    list-style-type: none;
+}
+
+.naver li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+
+.naver li {
+    padding: 0.2rem 0;
+}
+
+.naver li:hover {
+    background-color: rgba(16, 4, 62, 0.173);
+}
+
+main {
+    margin: 1rem 2vw;
+}
+
+.title {
+    font-size: medium;
+    text-align: center;
+    margin: 1rem 0;
+
+}
+
+.card {
+    border: 2px solid cornflowerblue;
+    background-color: rgba(109, 126, 135, 0.164);
+    margin: 1rem 0;
+    text-align: left;
+
+
+
+}
+
+.card ul {
+    list-style-type: none;
+    margin: 0 1rem;
+}
+
+.card h2 {
+    background-color: black;
+    color: rgba(203, 225, 229, 0.912);
+    padding: 0.75rem 0;
+    text-align: center;
+
+}
+
+
+.card:nth-of-type(2) {
+    background-color: rgba(37, 63, 88, 0.627);
+    text-align: center;
+}
+
+.card:nth-of-type(2) h4 {
+    padding: 0.2rem 0;
+    color: azure;
+}
