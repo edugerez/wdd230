@@ -21,9 +21,8 @@
 
 
     header .Edu img {
-        max-width: fit-content;
         background-color: aqua;
-        border-radius: 0.1rem;
+        border-radius: 20%;
         box-shadow: 21px 21px 41px (rgba(224, 211, 211, 0.977));
     }
 
