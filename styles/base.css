@@ -40,6 +40,7 @@ ul {
 .naver li a {
     text-decoration: none;
     color: rgb(0, 0, 0);
+    display: block;
 
 }
 
@@ -47,8 +48,12 @@ ul {
     padding: 0.2rem 0;
 }
 
-.naver li:hover {
+nav .naver li:hover {
     background-color: rgba(16, 4, 62, 0.173);
+}
+
+nav .naver .active {
+    background-color: rgba(117, 160, 189, 0.132);
 }
 
 main {
@@ -87,11 +92,27 @@ main {
 
 
 .card:nth-of-type(2) {
-    background-color: rgba(37, 63, 88, 0.627);
+    background-color: rgba(37, 63, 88, 0.703);
     text-align: center;
+    justify-items: end;
+
 }
 
 .card:nth-of-type(2) h4 {
     padding: 0.2rem 0;
     color: azure;
+    text-align: center;
+
+}
+
+footer {
+    background-color: black;
+    color: rgb(190, 220, 220);
+    text-align: center;
+    margin: 1rem 0.5rem;
+    padding: 0.4rem;
+}
+
+footer #update {
+    color: rgb(126, 140, 135);
 }
