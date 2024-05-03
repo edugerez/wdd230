@@ -1,0 +1,89 @@
+@media (min-width: 48em) {
+
+    #content {
+        width: 90%;
+    }
+
+    main {
+
+        margin: 0 auto;
+        margin-bottom: 2em;
+    }
+
+    .logo {
+        width: 20%;
+    }
+
+    .logo img {
+        width: 90%;
+    }
+
+    .logo h2 {
+        margin-top: 2em;
+        margin-bottom: 0;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .active {
+        text-shadow: #B6C1C4;
+
+    }
+
+    h2 {
+        font-size: 2.5em;
+    }
+
+
+    nav {
+        box-shadow: 0 2px 30px rgb(19, 19, 19);
+    }
+
+    nav a {
+        font-size: 1.5em
+    }
+
+    article {
+        width: 60%;
+
+    }
+
+    p {
+        align-content: center;
+        font-size: 1.4em;
+    }
+
+    footer {
+        font-size: 1.5em;
+    }
+
+    .audience p {
+        padding: 1em;
+    }
+
+    .main-audience {
+        padding-left: 1em;
+        padding-right: 1em;
+
+    }
+
+    .main-design {
+        display: block;
+    }
+
+    .main-design a {
+        font-size: larger;
+    }
+
+    .colors {
+        width: 60%;
+        font-size: 1.5em;
+    }
+
+    .sitemap {
+        width: 60%;
+    }
+
+}

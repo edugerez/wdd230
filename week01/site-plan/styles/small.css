@@ -1,0 +1,162 @@
+#content {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+
+img {
+    width: 80%;
+}
+
+header,
+footer {
+
+    background-color: #1B5773;
+    justify-content: center;
+    padding: 0.1em;
+}
+
+header,
+nav,
+main,
+footer {
+    margin: 0 auto;
+}
+
+.active {
+
+    text-shadow: 0 0 4px #B6C1C4;
+}
+
+h1 {
+    padding: 0.3em;
+    color: #B6C1C4;
+}
+
+.logo h2 {
+    display: block;
+    padding: 0.3em;
+    color: #1B5773
+}
+
+p {
+    padding: 0.3em;
+}
+
+nav {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #4099B1;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgb(19, 19, 19);
+    font-size: larger;
+
+
+}
+
+
+
+
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.3em;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: #000303;
+    color: #B6C1C4;
+}
+
+main {
+
+    align-items: center;
+    justify-content: center;
+    padding: 0.3em;
+}
+
+
+
+footer {
+
+    color: #B6C1C4;
+    padding: 0.3em;
+
+}
+
+/*target-audience*/
+
+div.photo-div {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.personas ul {
+    padding: .3em;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    float: left;
+    list-style-type: none;
+}
+
+.personas ul li {
+    padding-top: .2em;
+}
+
+section .scenarios li {
+    list-style-type: circle;
+    color: #1B5773;
+    text-align: justify;
+}
+
+
+
+
+/** design page **/
+
+:root {
+
+    --primary-color: #B6C1C4;
+    --secondary-color: #4099B1;
+    --accent1-color: #1B5773;
+
+
+}
+
+
+.colors {
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #101010;
+    color: white;
+}
+
+.colors td {
+    width: 20%;
+    height: 2em;
+}
+
+.primary {
+    background-color: var(--primary-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+}
