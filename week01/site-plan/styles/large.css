@@ -27,8 +27,8 @@
         font-size: 3em;
     }
 
-    .active {
-        text-shadow: #B6C1C4;
+    nav .active a {
+        text-shadow: 2px 2px 4px #a5e4ff;
 
     }
 
