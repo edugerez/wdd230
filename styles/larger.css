@@ -34,23 +34,47 @@
 
     }
 
+    body #open {
+        display: none;
+    }
+
+    nav {
+        background-color: rgb(25, 37, 42);
+        opacity: 1;
+        visibility: visible;
+        width: auto;
+        flex-direction: row;
+        position: relative;
+        padding: 0;
+        gap: 0;
+
+
+    }
+
+    .close {
+        display: none;
+    }
+
     nav .naver {
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
         flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+
+
 
     }
 
     nav .naver li {
 
         flex-grow: 2;
-        background-color: rgba(240, 255, 255, 0.21);
+        background-color: rgba(240, 255, 255, 0);
     }
 
     nav .naver li a {
         font-size: 1.2rem;
-        padding: 1rem;
+        padding: 0.5rem;
+        margin: 0 auto;
     }
 
     main {
