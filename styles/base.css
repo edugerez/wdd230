@@ -16,6 +16,7 @@ header {
 
 .Edu {
     padding: 0.5rem;
+    margin: 0 auto;
 }
 
 h1 {
@@ -23,24 +24,41 @@ h1 {
     font-size: 1.5rem;
     padding: 0.2rem;
     align-self: center;
+    justify-self: start;
 }
+
 
 nav {
     text-align: center;
-    display: block;
-    background-color: rgba(212, 211, 220, 0.29);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(8, 3, 49);
+    position: absolute;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 2rem;
+    gap: 1rem;
 
+}
+
+.close {
+    display: block;
+    width: 10%;
 }
 
 ul {
     padding: 0.5rem 0;
     list-style-type: none;
+
 }
 
 .naver li a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(182, 187, 207);
     display: block;
+    margin-bottom: 1rem;
 
 }
 
@@ -49,7 +67,7 @@ ul {
 }
 
 nav .naver li:hover {
-    background-color: rgba(16, 4, 62, 0.173);
+    background-color: rgba(124, 111, 176, 0.464);
 }
 
 nav .naver .active {
@@ -80,11 +98,12 @@ main {
 .card ul {
     list-style-type: none;
     margin: 0 1rem;
+
 }
 
 .card h2 {
     background-color: black;
-    color: rgba(203, 225, 229, 0.912);
+    color: rgba(255, 255, 255, 0.912);
     padding: 0.75rem 0;
     text-align: center;
 
@@ -92,7 +111,7 @@ main {
 
 
 .card:nth-of-type(2) {
-    background-color: rgba(37, 63, 88, 0.703);
+    background-color: rgba(23, 46, 68, 0.514);
     text-align: center;
     justify-items: end;
 
@@ -105,9 +124,23 @@ main {
 
 }
 
+.card ul li a {
+    color: rgba(28, 39, 77, 0.936);
+    text-decoration: none;
+    margin: 0.5rem 0.2rem;
+}
+
+.card ul li a:hover {
+    text-shadow: 1px 1px 4px black;
+}
+
+.card li ul a::after {
+    color: black;
+}
+
 footer {
     background-color: black;
-    color: rgb(190, 220, 220);
+    color: rgb(232, 238, 238);
     text-align: center;
     margin: 1rem 0.5rem;
     padding: 0.4rem;
