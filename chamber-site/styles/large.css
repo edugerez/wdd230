@@ -1,0 +1,205 @@
+@media (min-width: 768px) {
+
+    main {
+        max-width: 98%;
+        margin: 0 auto;
+    }
+
+    .headings h1 {
+        font-size: 3.5rem;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    header #naver {
+        position: absolute;
+        top: 3%;
+        right: 10%;
+        width: 50%;
+        text-align: center;
+
+    }
+
+    header #naver li {
+
+        display: inline-block;
+        font-size: 1.4rem;
+        padding: .9rem;
+        justify-items: space-evenly;
+    }
+
+    header #naver li a {
+
+        text-decoration: none;
+        padding: 0;
+        margin: 0;
+        color: rgb(251, 206, 5);
+
+    }
+
+    header #naver li a:hover {
+        background-color: transparent;
+        color: #60ddff;
+        font-weight: bold;
+        text-shadow: 4px 4px 12px rgb(220, 248, 251);
+    }
+
+    div .social {
+        left: 85%;
+        width: 5rem;
+    }
+
+
+    /*main*/
+
+    main {
+
+        grid-template-areas: "event     hero   hero   section-spots"
+            "weather  hero   hero   section-spots"
+            "join      news   news   section-spots";
+    }
+
+
+
+
+    #hero {
+        background-color: rgba(2, 2, 2, 0.6);
+        overflow: hidden;
+        margin-top: 0.8vw;
+
+
+    }
+
+    #hero picture img {
+        max-width: 100%;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    #hero h2 {
+        font-size: 2rem;
+        text-shadow: rgb(0, 0, 0) 0px 4px 40px;
+    }
+
+    #hero button {
+        font-size: 1.4rem;
+    }
+
+    .join {
+        height: auto;
+    }
+
+
+    .event {
+        background-color: rgb(255, 179, 2);
+        width: auto;
+        height: auto;
+        margin-left: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        margin-right: 0;
+        margin-top: 0.8vw;
+    }
+
+    .event h3 {
+        width: 100%;
+        text-shadow: none;
+    }
+
+    .event p {
+        background-color: darkslategrey;
+        padding: .4rem;
+    }
+
+    .weather-section {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    #infoW p {
+        font-size: 2.5rem;
+        right: 5%;
+    }
+
+    h6.active {
+        font-size: 1.5em;
+    }
+
+    div.section-spots {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        order: 1;
+    }
+
+    .soptlight2 {
+        font-size: 1.3em;
+    }
+
+    .soptlight2 img {
+        width: 100%;
+    }
+
+    .soptlight1 {
+        font-size: 1em;
+    }
+
+    div.section-spots .soptlight3 {
+        display: block;
+        padding: .5em;
+        font-size: 1.8em;
+        text-align: center;
+        height: auto;
+        background-color: rgb(21, 72, 108);
+        color: #adecfd;
+    }
+
+    .soptlight3 p {
+        color: coral;
+    }
+
+    .soptlight3 p:hover {
+        color: rgb(254, 254, 0);
+    }
+
+    .news {
+        width: auto;
+        height: auto;
+    }
+
+
+    /*footer*/
+
+    .rights {
+        display: flex;
+        justify-content: center;
+    }
+
+    .rights hr {
+        display: none
+    }
+
+    .rights h5 {
+        margin-top: 1em;
+        padding: 1em;
+        border-right: solid 0.1em rgba(236, 166, 13, 0.749);
+    }
+
+    div.info-footer h4 {
+        color: rgba(255, 255, 255, 0.775);
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    footer {
+        font-size: 1.4em;
+        margin-top: .2em;
+    }
+
+}
