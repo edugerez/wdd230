@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(16, 4, 28);
+    color: beige;
+    align-items: center;
+}
+
+h1 {
+    padding: 1rem;
+}
+
+picture {
+
+    box-shadow: 2px 2px 20px rgb(16, 65, 108);
+    margin-top: 3rem;
+    width: 80%;
+    animation: ease-in-out;
+
+}
+
+
+img {
+    width: 100%;
+}
+
+p {
+    width: 80%;
+    padding: .9rem;
+    text-align: center;
+
+}
